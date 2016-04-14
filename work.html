@@ -12,26 +12,21 @@
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <style>
-        body {
-            font-size: 14px;
-            background-image: url("FullSizeRender.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        
-        
-        
-        .container h1 {
-          padding: 300px 200px 300px 300px;
-          color:white;
-          text-align: center;
-          font-size: 50px;
-        }
-        
-        .glyphicon-sunglasses {
-          font-size: 50px;
-        }
-        
+    
+    body {
+        font-size: 14px;
+    }
+    
+    .container h1 {
+        border-bottom: 1px solid#e7e7e7;
+        margin: 0, 0, 10px;
+        padding: 50px 0 0 0;
+    }
+    
+    .row {
+        padding: 50px 20px;
+    }
+    
     </style>
   </head>
   <body>
@@ -48,16 +43,44 @@
           </div>
           <div class="collapse navbar-collapse" id="site-menu">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+              <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
               <li><a href="about.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ABOUT</a></li>
-              <li><a href="work.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> WORK</a></li>
+              <li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> WORK</a></li>
             </ul>
           </div>
         </div>
       </div>
     </header>
     <div class="container">
-      <h1>My<br>name<br>is<br>Junichirou<br><span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span></h1>
+      <h1>アプリケーション一覧</h1>
+      <div class="row">
+          <div class="col-md-6 col-md-6">
+              <a href="#" class="thumbnail">
+                  <img src="作成中.png" alt="作成中">
+                  <p>メッセージボード</p>
+              </a>
+          </div>
+          <div class="col-md-6 col-md-6">
+              <a href="#" class="thumbnail">
+                  <img src="作成中.png" alt="作成中">
+                  <p>Twitterクローン</p>
+              </a>
+          </div>
+          <div class="col-md-6 col-md-6">
+              <a href="#" class="thumbnail">
+                  <img src="作成中.png" alt="作成中">
+                  <p>モノリスト</p>
+              </a>
+          </div>
+          <div class="col-md-6 col-md-6">
+              <a href="#" class="thumbnail">
+                  <img src="作成中.png" alt="作成中">
+                  <p>オリジナルサービス</p>
+              </a>
+          </div>
+          
+      </div>
+      
     </div>
   </body>
 </html>

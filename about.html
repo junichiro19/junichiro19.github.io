@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Junichirouが作成したアプリケーションや情報などが表示されます">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Junichirouのポートフォリオサイト</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+    body {
+        font-size: 14px;
+    }
+    
+    .container h1 {
+        border-bottom: 1px solid#e7e7e7;
+        margin: 0, 0, 10px;
+    }
+    
+    .about {
+        padding: 50px 0;
+    }
+    
+    .about p {
+        padding: 20px 0;
+    }
+    
+    .profile {
+        padding: 50px 0;
+    }
+    
+    #type {
+        padding: 10px 0 0 0;
+    }
+    
+    #item {
+        margin: 10px 30px;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+              <li  class="active"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> ABOUT</a></li>
+              <li><a href="work.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> WORK</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="about">
+            <h1>このサイトについて</h1>
+            <p>本サイトは私自身の自己紹介と作成したコンテンツについて説明しているサイトです<br>日々一生懸命頑張って精進しております<br>私が作ったものなどに興味を持っていただけると幸いです</p>
+        </div>
+        <div class="profile">
+            <h1>私自身について</h1>
+            <p id="type">名前</p>
+            <p id="item">岡崎潤一郎</p>
+            <p id="type">生年月日</p>
+            <p id="item">1992年1月9日</p>
+            <p id="type">趣味</p>
+            <div id="item">
+                <span class="label label-default">テニス</span>
+                <span class="label label-default">ランニング</span>
+                <span class="label label-default">映画鑑賞</span>
+                <span class="label label-default">お酒</span>
+            </div>
+            <p id="type">プログラミング言語</p>
+            <div id="item">
+                <span class="label label-default">HTML</span>
+                <span class="label label-default">CSS</span>
+                <span class="label label-default">Ruby</span>
+                <span class="label label-default">Rails</span>
+            </div>
+            <p id="type">GitHubへのリンク</p>
+            <p id="item"><a href="https://github.com/junichiro19">https://github.com/junichiro19</a></p>
+        </div>
+    </div>
+  </body>
+</html>
